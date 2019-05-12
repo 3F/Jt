@@ -1,0 +1,53 @@
+{
+  "name": "jt",
+  "version": "1.0.0",
+  "description": "Beardless сustomizable template engine, Mr. Jt for Node.js and Web browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3F/Jt.git"
+  },
+  "keywords": [
+    "template",
+    "template-engine",
+    "templater",
+    "Jt",
+    "Mr.Jt",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "author": "Denis Kuzmin [ entry.reg@gmail.com ] GitHub/3F",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3F/Jt/issues"
+  },
+  "homepage": "https://github.com/3F/Jt#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "ava": "^1.4.1",
+    "browserify": "^16.2.3",
+    "git-repo-info": "^2.1.0",
+    "google-closure-compiler": "^20190121.0.0",
+    "gulp": "^4.0.2",
+    "gulp-append-prepend": "^1.0.8",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-if": "^2.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^5.0.1",
+    "gulp-zip": "^4.2.0",
+    "minimist": "^1.2.0",
+    "through2": "^3.0.1",
+    "tsify": "^4.0.1",
+    "typescript": "^3.4.5",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
