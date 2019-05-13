@@ -45,7 +45,7 @@ export class Jt implements IJt
      * IJtAct instances.
      * @protected
      */
-    protected act: IDictionary<IJtAct> = {};
+    protected _act: IDictionary<IJtAct> = {};
     
     /**
      * Use already captured raw data.
@@ -159,7 +159,7 @@ export class Jt implements IJt
         }
 
         for(let k in names) {
-            delete this.act[names[k]];
+            delete this._act[names[k]];
         }
         return this;
     }
@@ -174,8 +174,8 @@ export class Jt implements IJt
      */
     public is(name: string): IJtAct | null
     {
-        if(this.act[name]) {
-            return this.act[name];
+        if(this._act[name]) {
+            return this._act[name];
         }
         return null;
     }
@@ -218,9 +218,9 @@ export class Jt implements IJt
         }
         
         if(!this.is(name)) {
-            this.act[name] = this._newJtAct(data);
+            this._act[name] = this._newJtAct(data);
         }
-        return this.act[name];
+        return this._act[name];
     }
     
     /**
