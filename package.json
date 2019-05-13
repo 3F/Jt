@@ -1,7 +1,7 @@
 {
-  "name": "jt",
+  "name": "mrjt",
   "version": "1.0.0",
-  "description": "Beardless сustomizable template engine, Mr. Jt for Node.js and Web browsers.",
+  "description": "Beardless customizable template engine, Mr. Jt for Node.js and Web browsers.",
   "main": "index.js",
   "scripts": {
     "test": "ava"

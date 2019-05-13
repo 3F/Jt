@@ -1,19 +1,20 @@
 
 # Mr. [Jt 🎩](https://github.com/3F/Jt) 
 
-Meet beardless сustomizable template engine, Mr. Jt for Node.js and Web browsers.
+Meet beardless customizable template engine, Mr. Jt for Node.js and Web browsers.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/s5of5w4qh2k7qels/branch/master?svg=true)](https://ci.appveyor.com/project/3Fs/jt/branch/master)
 [![release-src](https://img.shields.io/github/release/3F/Jt.svg)](https://github.com/3F/Jt/releases/latest)
+[![npm](https://img.shields.io/npm/v/mrjt.svg)](https://www.npmjs.com/package/mrjt)
 [![License](https://img.shields.io/badge/License-MIT-74A5C2.svg)](https://github.com/3F/Jt/blob/master/License.txt)
 
-**Download:** 
-* Stable: [/releases](https://github.com/3F/Jt/releases) [ [latest](https://github.com/3F/Jt/releases/latest) ]
-* CI builds: [`/artifacts` page](https://ci.appveyor.com/project/3Fs/jt/history) or find as `Pre-release` with mark `🎲 Nightly build` on [GitHub Releases](https://github.com/3F/Jt/releases) page.
+[![Build history](https://buildstats.info/appveyor/chart/3Fs/jt?buildCount=20&includeBuildsFromPullRequest=true&showStats=true)](https://ci.appveyor.com/project/3Fs/jt/history)
 
 ```javascript
-jt.use('', 'Hello %p% world')
+jt.use('', ' $Hello %p% {{world}} ')
     .as({ p: 'amazing'})
-    .reset().as({ p: 'crazy'});
+    .reset().as({ p: 'crazy'})
+    // ... +$Hello, +{{world}}
 ```
 
 ```javascript
@@ -42,7 +43,7 @@ Extra small size. Just about o-n-e kilobyte of fully workable core engine:
 * ~ **1.02 KB** for Core of ES6 gzipped; 
 * ~ 1.09 KB for Core of **ES3** gzipped;
 
-Same things for custom handlers.
+*Same things for custom handlers.*
 
 ### Configurable 🔧
 
@@ -80,7 +81,7 @@ Or for something more ...
 
 Sure! Add or change any features for the layers, still *on the fly*.
 
-Do you need something special? No problem, just implement [IJtHandler](src/Handlers/IJtHandler.ts) to cover your awesome things. It easy.
+Do you need something special? No problem, just implement [IJtHandler](https://github.com/3F/Jt/blob/master/src/Handlers/IJtHandler.ts) to cover your awesome things. It easy.
 
 ### Comfy but strong 🌇
 
@@ -102,7 +103,7 @@ jt.use('hello')
     .eject((v) => t.is(v, 'Hello you from Moscow, dear $name.'))
     ...
     .as({ name: '{( r > 100 )}friend{/}visitor{;}' })
-    .sa(jtif, { r: actual })
+    .sa(jtif, { r: actual }) // // Hello you from Moscow, dear friend.
     ...
     .val();
 🐧
@@ -110,7 +111,7 @@ jt.use('hello')
 
 ### Stability 🗠
 
-Clean [API](src/Core/) and its [tests](tests/) will take care of your peace of mind.
+Clean [API](https://github.com/3F/Jt/tree/master/src/Core) and its [tests](https://github.com/3F/Jt/tree/master/tests) will take care of your peace of mind.
 
 ### Compatibility 🗸
 
@@ -118,11 +119,11 @@ Nothing special, we just provide separate ES3+/ES6+ support in Node.js and Web b
 
 ### No dependencies to something 👐
 
-Developed from scratch without dependencies to something.
+Developed from scratch without dependencies to something from our end-product.
 
 ### Open and Free 🍰
 
-MIT License, Enjoy!
+Open Source project; MIT License, Yes! Enjoy!
 
 ## License
 
@@ -140,9 +141,12 @@ Copyright (c) 2019  Denis Kuzmin < entry.reg@gmail.com > GitHub/3F
 * Configuration: [IJtConfig](https://github.com/3F/Jt/blob/master/src/Core/IJtConfig.ts)
 * Handlers: [IJtHandler](https://github.com/3F/Jt/blob/master/src/Handlers/IJtHandler.ts)
 
-## Versions
+## Download
 
-TODO:
+* NPM: [![npm](https://img.shields.io/npm/v/mrjt.svg)](https://www.npmjs.com/package/mrjt)
+* Stable: [/releases](https://github.com/3F/Jt/releases) [ [latest](https://github.com/3F/Jt/releases/latest) ]
+* CI builds: [`/artifacts` page](https://ci.appveyor.com/project/3Fs/jt/history) or find as `Pre-release` with mark `🎲 Nightly build` on [GitHub Releases](https://github.com/3F/Jt/releases) page.
+
 
 ## Build & Tests
 
