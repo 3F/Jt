@@ -17,7 +17,9 @@
     "Jt",
     "Mr.Jt",
     "JavaScript",
-    "TypeScript"
+    "TypeScript",
+    "customizable",
+    "customizable-templates"
   ],
   "author": "Denis Kuzmin [ entry.reg@gmail.com ] GitHub/3F",
   "license": "MIT",

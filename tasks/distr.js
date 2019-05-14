@@ -54,6 +54,7 @@ function distributeMeta()
 {
     return src([
         './License.txt',
+        './changelog.txt',
         './package.json',
         './Readme.md',
     ])

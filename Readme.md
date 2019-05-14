@@ -7,6 +7,7 @@ Meet beardless customizable template engine, Mr. Jt for Node.js and Web browsers
 [![release-src](https://img.shields.io/github/release/3F/Jt.svg)](https://github.com/3F/Jt/releases/latest)
 [![npm](https://img.shields.io/npm/v/mrjt.svg)](https://www.npmjs.com/package/mrjt)
 [![License](https://img.shields.io/badge/License-MIT-74A5C2.svg)](https://github.com/3F/Jt/blob/master/License.txt)
+[![CDN](https://img.shields.io/badge/CDN-unpkg.com/mrjt-97C40F.svg?style=flat-square)](https://unpkg.com/mrjt/Core/Jt.es6.js)
 
 [![Build history](https://buildstats.info/appveyor/chart/3Fs/jt?buildCount=20&includeBuildsFromPullRequest=true&showStats=true)](https://ci.appveyor.com/project/3Fs/jt/history)
 
@@ -144,7 +145,10 @@ Copyright (c) 2019  Denis Kuzmin < entry.reg@gmail.com > GitHub/3F
 ## Download
 
 * NPM: [![npm](https://img.shields.io/npm/v/mrjt.svg)](https://www.npmjs.com/package/mrjt)
-* Stable: [/releases](https://github.com/3F/Jt/releases) [ [latest](https://github.com/3F/Jt/releases/latest) ]
+* CDN: [![CDN](https://img.shields.io/badge/CDN-unpkg.com/mrjt-97C40F.svg?style=flat-square)](https://unpkg.com/mrjt/Core/Jt.es6.js) 
+    * ... `https://unpkg.com/mrjt[@version]/[path_to_specific_file]`
+
+* GHR Stable: [/releases](https://github.com/3F/Jt/releases) [ [latest](https://github.com/3F/Jt/releases/latest) ]
 * CI builds: [`/artifacts` page](https://ci.appveyor.com/project/3Fs/jt/history) or find as `Pre-release` with mark `🎲 Nightly build` on [GitHub Releases](https://github.com/3F/Jt/releases) page.
 
 
