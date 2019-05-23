@@ -1,9 +1,13 @@
 
-# Mr. [Jt 🎩](https://github.com/3F/Jt) 
+# [![Mr. Jt](https://raw.githubusercontent.com/3F/Jt/master/Jt.logo.png)](https://github.com/3F/Jt)
+
+🎩
 
 Meet beardless customizable template engine, Mr. Jt for Node.js and Web browsers.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/s5of5w4qh2k7qels/branch/master?svg=true)](https://ci.appveyor.com/project/3Fs/jt/branch/master)
+[![Coverage Status](https://coveralls.io/repos/github/3F/Jt/badge.svg)](https://coveralls.io/github/3F/Jt)
+[![Tests](https://img.shields.io/appveyor/tests/3Fs/jt/master.svg)](https://ci.appveyor.com/project/3Fs/jt/build/tests)
 [![release-src](https://img.shields.io/github/release/3F/Jt.svg)](https://github.com/3F/Jt/releases/latest)
 [![npm](https://img.shields.io/npm/v/mrjt.svg)](https://www.npmjs.com/package/mrjt)
 [![License](https://img.shields.io/badge/License-MIT-74A5C2.svg)](https://github.com/3F/Jt/blob/master/License.txt)
@@ -112,11 +116,8 @@ jt.use('hello')
 
 ### Stability 🗠
 
-Clean [API](https://github.com/3F/Jt/tree/master/src/Core) and its [tests](https://github.com/3F/Jt/tree/master/tests) will take care of your peace of mind.
-
-### Compatibility 🗸
-
-Nothing special, we just provide separate ES3+/ES6+ support in Node.js and Web browsers environment. Choose more suitable package for your case.
+Clean **[API](#api)** and its **tests** will take care of your peace of mind. [![Coverage Status](https://coveralls.io/repos/github/3F/Jt/badge.svg)](https://coveralls.io/github/3F/Jt)
+[![Tests](https://img.shields.io/appveyor/tests/3Fs/jt/master.svg)](https://ci.appveyor.com/project/3Fs/jt/build/tests)
 
 ### No dependencies to something 👐
 
@@ -143,6 +144,8 @@ Copyright (c) 2019  Denis Kuzmin < entry.reg@gmail.com > GitHub/3F
 * Handlers: [IJtHandler](https://github.com/3F/Jt/blob/master/src/Handlers/IJtHandler.ts)
 
 ## Download
+
+Separate ES3+/ES6+ support for your environment. Choose more suitable package for your case.
 
 * NPM: [![npm](https://img.shields.io/npm/v/mrjt.svg)](https://www.npmjs.com/package/mrjt)
 * CDN: [![CDN](https://img.shields.io/badge/CDN-unpkg.com/mrjt-97C40F.svg?style=flat-square)](https://unpkg.com/mrjt/Core/Jt.es6.js) 

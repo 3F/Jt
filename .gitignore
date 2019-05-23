@@ -5,3 +5,4 @@
 /public
 /.vscode
 /dist.zip
+/.nyc_output
